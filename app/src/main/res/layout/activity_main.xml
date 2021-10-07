@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ru.skyrel74.andersenhomework4.WatchView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:dialColor="@color/black"
+        app:hourHandColor="@color/black"
+        app:minuteHandColor="@color/red"
+        app:secondHandColor="@color/blue"
+        app:dialWidth="8dp"
+        app:dialLength="16dp"
+        app:hourHandLength="16dp"
+        app:hourHandWidth="8dp"
+        app:minuteHandLength="12dp"
+        app:minuteHandWidth="8dp"
+        app:secondHandLength="8dp"
+        app:secondHandWidth="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
